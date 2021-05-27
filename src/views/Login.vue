@@ -37,8 +37,8 @@
       </v-card-text>
 
       <v-card-actions>
-        <v-btn
-          block
+        <div class="logo">
+          <v-btn
           color="cyan darken-1"
           @click="sendLogin()"
         >
@@ -46,6 +46,7 @@
             mdi-key
           </v-icon> Iniciar Sesión
         </v-btn>
+        </div>
 
       </v-card-actions>
     <!-- <v-card-text>
@@ -60,7 +61,7 @@
     </v-card-text> -->
     <br>
     <!-- <p class="tex}t-center">(- * -)</p> -->
-    <h4 class="text-center">Ingresa con</h4>
+    <!-- <h4 class="text-center">Ingresa con</h4>
     <v-card-text elevation="9" >
         <a href="" class="accion" block>
             <v-img class="logo "
@@ -68,7 +69,7 @@
             width="50%"
             ></v-img>
         </a>
-    </v-card-text>
+    </v-card-text> -->
     <v-card-text>
       <v-row>
         <v-col>

@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  <v-app class="main">
     <!-- <v-app-bar
       app
       color="cyan darken-1"
@@ -10,6 +10,9 @@
     <v-main>
       <router-view/>
     </v-main>
+    <footer class="text-center">
+      Tribunal Supremo de Justicia
+    </footer>
   </v-app>
 </template>
 
@@ -23,3 +26,8 @@ export default {
   }),
 };
 </script>
+<style >
+ .main{
+  background: #9e9e9e !important; 
+ }
+</style>
